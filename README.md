@@ -14,35 +14,36 @@ Transactions.csv :
 https://drive.google.com/file/d/1saEqdbBB-vuk2hxoAf4TzDEsykdKlzbF/view?usp=sharing  
 
 Files Description: 
-1. Customers.csv 
-○ CustomerID: Unique identifier for each customer. 
-○ CustomerName: Name of the customer. 
-○ Region: Continent where the customer resides. 
-○ SignupDate: Date when the customer signed up. 
-2. Products.csv 
-○ ProductID: Unique identifier for each product. 
-○ ProductName: Name of the product. 
-○ Category: Product category. 
-○ Price: Product price in USD. 
-3. Transactions.csv 
-○ TransactionID: Unique identifier for each transaction. 
-○ CustomerID: ID of the customer who made the transaction. 
-○ ProductID: ID of the product sold. 
-○ TransactionDate: Date of the transaction. 
-○ Quantity: Quantity of the product purchased. 
-○ TotalValue: Total value of the transaction. 
-○ Price: Price of the product sold.
+1. Customers.csv
+   ○ CustomerID: Unique identifier for each customer.
+   ○ CustomerName: Name of the customer.
+   ○ Region: Continent where the customer resides.
+   ○ SignupDate: Date when the customer signed up. 
+2. Products.csv
+   ○ ProductID: Unique identifier for each product.
+   ○ ProductName: Name of the product.
+   ○ Category: Product category.
+   ○ Price: Product price in USD. 
+3. Transactions.csv
+   ○ TransactionID: Unique identifier for each transaction.
+   ○ CustomerID: ID of the customer who made the transaction.
+   ○ ProductID: ID of the product sold.
+   ○ TransactionDate: Date of the transaction.
+   ○ Quantity: Quantity of the product purchased.
+   ○ TotalValue: Total value of the transaction.
+   ○ Price: Price of the product sold.
 
 Assignment Tasks: 
+
 Task 1: Exploratory Data Analysis (EDA) and Business Insights 
 1. Perform EDA on the provided dataset. 
 2. Derive at least 5 business insights from the EDA. 
 ○ Write these insights in short point-wise sentences (maximum 100 words per 
 insight).
-
 Deliverables: 
 ● A Jupyter Notebook/Python script containing your EDA code. 
-● A PDF report with business insights (maximum 500 words). 
+● A PDF report with business insights (maximum 500 words).
+
 Task 2: Lookalike Model 
 Build a Lookalike Model that takes a user's information as input and recommends 3 similar 
 customers based on their profile and transaction history. The model should: 
@@ -56,6 +57,7 @@ just one map: Map<cust_id, List<cust_id, score>>
 Evaluation Criteria: 
 ● Model accuracy and logic. 
 ● Quality of recommendations and similarity scores. 
+
 Task 3: Customer Segmentation / Clustering 
 Perform customer segmentation using clustering techniques. Use both profile information 
 (from Customers.csv) and transaction information (from Transactions.csv). 
@@ -69,25 +71,4 @@ Deliverables:
 ○ DB Index value. 
 ○ Other relevant clustering metrics. 
 ● A Jupyter Notebook/Python script containing your clustering code. 
-Evaluation Criteria: 
-● Clustering logic and metrics. 
-● Visual representation of clusters.
 
-Submission Instructions: 
-1. GitHub Link  
-○ Upload all the PDF and code files in a public GitHub repository.   
-2. File Naming Convention: 
-○ Use the following naming convention for all your files: 
-■ FirstName_LastName_EDA.pdf 
-■ FirstName_LastName_EDA.ipynb 
-■ FirstName_LastName_Lookalike.csv 
-■ FirstName_LastName_Lookalike.ipynb 
-■ FirstName_LastName_Clustering.pdf 
-■ FirstName_LastName_Clustering.ipynb
-
-
-Final Note: 
-This comprehensive assignment requires critical thinking and practical application of data 
-science concepts. Focus on creating clean, efficient code and providing meaningful insights that 
-can help the company improve its business strategy. 
-Good luck! 
